@@ -36,4 +36,5 @@ vcs export > gitDump.yaml
 Running `parse.py` with `gitDump.yaml` in the same folder should produce `mur_init.sh` with all your current repos and their current checked-out branches.
 
 ## TODO:
- - [ ] Use launch args in `parse.py`
+ - [ ] Use launch args in `parse.py` for choose `gitDump.yaml`
+ - [ ] Use launch args in `mur_init.sh` for choosing `/src`
