@@ -1,7 +1,7 @@
 git clone --branch master git@github.com:catkin/catkin_simple.git
 git clone --branch master git@github.com:ethz-asl/glog_catkin.git
 git clone --branch kinetic-devel https://github.com/tu-darmstadt-ros-pkg/hector_gazebo
-git clone --branch dev/remove_opencv_dep git@github.com:MURDriverless/lidar_dev.git
+git clone --branch task-262-lidar-sim git@github.com:MURDriverless/lidar_dev.git
 git clone --branch master git@github.com:MURDriverless/linefit_ground_segmentation.git
 git clone --branch master git@github.com:MURDriverless/mur_common.git
 git clone --branch master git@github.com:MURDriverless/mursim.git
