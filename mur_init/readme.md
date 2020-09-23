@@ -1,3 +1,6 @@
+# `mur_init`
+Script to clone all ROS packages for running a full stack simulation.
+
 ## Usage of `mur_init.sh`
 Update Gazebo to the latest minor version 9.13.2 for use with ROS Melodic, otherwise `gpu_ray` (GPU accelerated LiDAR simulation) will most likely fail to run.
 
