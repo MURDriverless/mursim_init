@@ -2,7 +2,7 @@
 Instructions on how to run ROS in a distributed computing environment.
 
 ## Automated script
-Run `remoteROSGen.py` with `python3`,
+Run `remoteROSGen.py` with `python3`, refer to "manual method" section below for config file usage.
 ```
 usage: remoteROSGen.py [-h] [--host_addr HOST_ADDR] [--local_ip [LOCAL_IP]]
 
