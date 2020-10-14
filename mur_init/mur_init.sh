@@ -8,6 +8,6 @@ git clone --branch master git@github.com:MURDriverless/mursim.git
 git clone --branch master git@github.com:MURDriverless/mursim_actuator.git
 git clone --branch master https://github.com/MURDriverless/ouster_example
 git clone --branch develop git@github.com:MURDriverless/path_follower_ros.git
-git clone --branch develop/correct_implment git@github.com:MURDriverless/planner_exploratory.git
+git clone --branch develop/0.1 git@github.com:MURDriverless/planner_exploratory.git
 git clone --branch develop git@github.com:MURDriverless/slam.git
 git clone --branch opencv4 git@github.com:MURDriverless/vision_opencv.git
