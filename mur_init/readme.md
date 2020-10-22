@@ -15,6 +15,19 @@ sudo apt install ros-melodic-tf2-sensor-msgs libgoogle-glog-dev
 
 Run `mur_init.sh` within the `/src` of your ros/catkin workspace
 
+### Installing NVidia Preqs
+Use NVidia SDK manager for jetpack 4.3
+
+CUDA 10.0
+CUDNN 7.6.3
+TensorRT 7.0.0
+
+Install `CUDNN` and `TensorRT` via `.dev` from NVidia site, read the documentations,
+
+https://docs.nvidia.com/deeplearning/cudnn/archives/cudnn_763/cudnn-install/index.html#installlinux-deb
+
+https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-700/tensorrt-install-guide/index.html#installing-debian
+
 ## Updating `mur_init.sh`
 ### Manual
 Just manually add `git clone` lines to the script or modify the branch to checkout `--branch {branch_name}`
