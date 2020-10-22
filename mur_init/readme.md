@@ -18,9 +18,11 @@ Run `mur_init.sh` within the `/src` of your ros/catkin workspace
 ### Installing NVidia Preqs
 Use NVidia SDK manager for jetpack 4.3
 
+```
 CUDA 10.0
 CUDNN 7.6.3
 TensorRT 7.0.0
+```
 
 Install `CUDNN` and `TensorRT` via `.dev` from NVidia site, read the documentations,
 
