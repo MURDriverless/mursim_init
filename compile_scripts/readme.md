@@ -5,7 +5,7 @@ Collection of scripts used for downloading and compiling specific version of cer
 1. Download required CMake version from [https://cmake.org/download/](https://cmake.org/download/) to the same folder as `install_cmake.sh`
 2. Run `sudo sh ./install_cmake.sh`
 3. Verify CMake has been installed to `/opt/cmake`
-4. Add `export PATH=/opt/cmake${PATH:+:${PATH}}` to `~/.bashrc`
+4. Add `export PATH=/opt/cmake/bin${PATH:+:${PATH}}` to `~/.bashrc`
 5. Start a new shell and verify CMake has been upgraded with `cmake --version`
 
 ## OpenCV usage
