@@ -16,7 +16,7 @@ Collection of scripts used for downloading and compiling specific version of cer
    - Will take a while to run, expecially on lower end computers, ~30-40min to compile on a 12 thread Ryzen 5 2600.
    - Change `make -j$(nproc)` to `make -j{num_cores}` to change the number of cores used while compiling, i.e. `make -j4`
 
-### CUDNN 8.0+ and OpenCV 4.1.1
+### CUDNN 8.0+ (Jetpack 4.4) and OpenCV 4.1.1
 https://forums.developer.nvidia.com/t/cudnn-8-0-of-jp4-4p-recognized-under-7-5-version-by-opencv4-2-and-4-3/128167
 
 ```
